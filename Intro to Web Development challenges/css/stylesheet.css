@@ -7,9 +7,13 @@
 .flo {
     padding: 20px;
     flex-direction: row-reverse;
-    background: #89cff0;
+    background: #b5b7b8;
     background-repeat: repeat;
     background-size: cover;
+}
+
+html {
+    background-blend-mode: color;
 }
 
 
@@ -81,6 +85,18 @@ h1 {
     border-color: #383532;
 }
 
+#carouselExampleControls {
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+}
+
+#skills {
+    background-color: bisque;
+    padding: 0%;
+}
+
 section {
     border-style: solid;
     border-color: whitesmoke;
@@ -105,6 +121,10 @@ section {
 h3 {
     color: black;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    text-align: center;
 }
 
 footer {
