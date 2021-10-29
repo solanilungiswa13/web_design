@@ -21,6 +21,8 @@ html {
 
 body {
     background-color: teal;
+    font-family: sans-serif;
+    font-size: 110%;
 }
 
 
@@ -64,18 +66,36 @@ body {
     font-size: 110%;
 }
 
+.carousel {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+}
+
 header {
     text-align: center;
     background-color: #383532;
     color: aliceblue;
 }
 
+.carousel {
+    width: 100%;
+    margin: auto;
+}
+
+.carousel {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+}
+
 img {
     border-style: hidden;
-    border-width: 0%;
-    border-left-width: 2%;
-    border-right-width: 5%;
-    border-color: rgb(190, 103, 44);
+    margin: 4rem;
     border-radius: 50%;
 }
 
@@ -113,7 +133,6 @@ section {
 .menuitem {
     padding: 20px;
     background-color: rgb(158, 158, 152);
-    background-size: contain;
     width: auto;
     text-align: left;
 }
@@ -144,4 +163,12 @@ a:hover {
 
 .jumbotron {
     color: black;
+}
+
+.container {
+    padding: 1rem;
+}
+
+.socials {
+    padding: 1%;
 }
